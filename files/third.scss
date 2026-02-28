@@ -1,0 +1,37 @@
+/* third SECTION */
+.main2 {
+  display: none;
+  background-image: url("../image/bg2.avif");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+
+  .opicity {
+    background-color: rgb(249, 199, 207);
+    position: absolute;
+    inset: 0;
+    opacity: 0.5;
+  }
+
+  .img11 {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    height: 300px;
+  }
+
+  .para {
+    text-align: center;
+    line-height: 90px;
+    width: 65%;
+    -webkit-text-stroke: 5px #FE83AC;
+    color: transparent;
+    font-weight: 900;
+    font-size: 60px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+  }
+}
+

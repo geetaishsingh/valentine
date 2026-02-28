@@ -1,0 +1,105 @@
+
+
+
+
+/* MAIN */
+.main {
+  background-image: url(../image/bg1.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  z-index: 999;
+  color: #fff;
+  display: block;
+}
+
+/* CENTER TEXT */
+.mm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 80px;
+    margin-bottom: 60px;
+    word-spacing: 15px;
+    -webkit-text-stroke: 3px #ff7893;
+    color: transparent;
+  }
+}
+
+/* BUTTON BASE */
+.box,
+.box2 {
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* YES BUTTON */
+.box {
+  background: linear-gradient(135deg, #ff6a88, #ff99ac);
+  color: #fff;
+  position: absolute;
+  left: 20%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.08);
+    box-shadow: 0 12px 25px rgba(255, 105, 140, 0.6);
+  }
+}
+
+/* NO BUTTON */
+.box2 {
+  background-color: rgba(108, 117, 125, 0.85);
+  color: #fff;
+  position: absolute;
+  top: 64%;
+  left: 54%;
+  translate: -50% -50%;
+  transition:
+    top 0.25s ease,
+    left 0.25s ease,
+    background-color 0.25s ease,
+    scale 0.25s ease;
+
+  &:hover {
+    background-color: black;
+    scale: 1.05;
+  }
+}
+
+/* QUOTE */
+.para1 {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Great Vibes", cursive;
+  font-size: 26px;
+  color: #898b92;
+  word-spacing: 10px;
+}
+
+/* IMAGES */
+img {
+  position: absolute;
+  pointer-events: none;
+}
+
+.img1 { bottom: 0; left: 15%; }
+.img2 { top: 45%; right: 25%; height: 200px; }
+.img3 { top: 10%; left: 30%; height: 150px; }
+.img5 { top: 30%; left: 3%; }
+.img7 { top: 0; right: 3%; }
+.img8 { bottom: 0; right: 0; }
+
