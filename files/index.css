@@ -270,11 +270,11 @@ img {
 @media (max-width: 768px) {
   .main3-a {
     background-image: url("../image/first.PNG");
-    background-position: 10% 100%;
+    background-position: 17% 100%;
   }
   .main3-b {
     background-image: url("../image/first.PNG");
-    background-position: 85% 100%;
+    background-position: 70% 100%;
   }
   .img1,
   .img2,
