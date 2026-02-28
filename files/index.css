@@ -276,6 +276,10 @@ img {
     background-image: url("../image/first.PNG");
     background-position: 70% 100%;
   }
+  .btn {
+    top: 73%;
+    padding: 30px 50px;
+  }
   .img1,
   .img2,
   .img3,
